@@ -3,7 +3,9 @@
 
 <head>
     <title>Bakery</title>
-    <link rel="stylesheet" href="style-copia.css">
+    <link rel="stylesheet" href="style-copia.css" type="text/css">
+    <script src="main.js"></script>
+
 </head>
 
 <body>
@@ -14,7 +16,8 @@
     <article>
         <p>Texto sólo de prueba, acá puede ir un párrafo con lo que sea por ejemplo definición de qué se ofrece, o el famoso quién somos?, entre otros</p>
 
-        <p>Otro párrafo con lo que sea</p>
+        <p id="Special">Panadería es el negocio especializado en la producción y venta de diferentes tipos de pan, así como también de todo tipo de productos hechos en base a la harina y a los bollos de masa. Una panadería puede vender entonces, además de pan, facturas,
+            galletas y galletitas, masas finas, tortas, muffins, masa para pizzas, tartas y en algunos casos también comidas saladas.</p>
         I could just write whatever i want and with the following tag i'll put a line break<br> So... lets see how does it looks.<br>
         <ul>
             <li><strong>Link UNA</strong> <a href="http://www.una.ac.cr" target="_blank">
@@ -28,6 +31,14 @@
             <li><strong>Link Aula Virtual UNA</strong> <a href="http://www.aulavirtual.una.ac.cr" target="_blank">
                     www.aulavirtual.una.ac.cr</a></li>
         </ol>
+        <h3 class="different_header">Formulario de Nuevo Producto</h3>
+
+
+        Nombre del producto: <input type="text" name="name" id="name" /> <br> Descripción: <input type="text" name="desc" id="desc"><br> Precio: <input type="text" name="price" id="price"><br> Link for the image: <input type="url" name="image" id="imageURL"><br>
+        <br>
+        <button onclick="addRow();">Agregar</button><br />
+
+        <h3 class="different_header">Lista de Productos</h3>
 
         <table>
             <tr class="Heading">

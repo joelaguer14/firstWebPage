@@ -20,24 +20,8 @@ header {
     padding: 20px;
 }
 
-h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    text-transform: uppercase;
-    color: #00697c;
-    background: white;
-    padding: 20px;
-}
-
-h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    text-transform: uppercase;
-    color: #00697c;
-    background: white;
-    padding: 20px;
-}
-
+h1,
+h2,
 h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
@@ -84,7 +68,20 @@ img {
     padding-top: 5px;
 }
 
-p.Click_Here {
+.Click_Here {
     text-align: center;
     font-size: 1.25em;
+}
+
+#Special {
+    text-align: justify;
+}
+
+.different_header {
+    font-family: cursive;
+    text-align: center;
+    text-transform: uppercase;
+    color: #004d5a;
+    background: whitesmoke;
+    padding: 20px;
 }
