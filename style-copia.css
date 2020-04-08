@@ -83,3 +83,8 @@ img {
     width: 200px;
     padding-top: 5px;
 }
+
+p.Click_Here {
+    text-align: center;
+    font-size: 1.25em;
+}
