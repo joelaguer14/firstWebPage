@@ -4,7 +4,7 @@ function addRow() {
     var name = document.getElementById('name').value;
     var desc = document.getElementById('desc').value;
     var price = document.getElementById('price').value;
-    var image = document.getElementById('imageURL').textContent;
+    var image = document.getElementById('imageURL').value;
     var table = document.getElementsByTagName('table')[0];
 
     var newRow = table.insertRow(2);
